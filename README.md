@@ -17,6 +17,8 @@ npm install -g murmur-cli
 murmur status
 ```
 
+If you already turned on the CLI in Murmur > Settings > Automation, the app has put its own `murmur` in `~/.local/bin`. Both run the same helper inside Murmur.app, so it does not matter which one comes first on your PATH. The npm package also installs `murmur-cli`, which never clashes.
+
 Or run it without installing:
 
 ```sh

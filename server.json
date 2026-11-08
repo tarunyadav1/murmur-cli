@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tarunyadav1/murmur-cli",
+  "title": "Murmur",
+  "description": "Offline text to speech and voice cloning on macOS through the Murmur app.",
+  "websiteUrl": "https://www.murmurtts.com/docs/automation",
+  "repository": {
+    "url": "https://github.com/tarunyadav1/murmur-cli",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "murmur-cli",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        },
+        {
+          "type": "positional",
+          "value": "serve"
+        }
+      ]
+    }
+  ]
+}

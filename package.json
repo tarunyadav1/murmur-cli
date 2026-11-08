@@ -1,13 +1,44 @@
 {
   "name": "murmur-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Command line and MCP access to Murmur, the offline text-to-speech app for Mac. Generate speech and clone voices locally.",
-  "bin": { "murmur": "bin/murmur.js", "murmur-cli": "bin/murmur.js" },
-  "files": ["bin", "README.md"],
-  "os": ["darwin"],
-  "engines": { "node": ">=18" },
-  "keywords": ["text-to-speech", "tts", "voice-cloning", "offline", "local", "mac", "macos", "mcp", "kokoro", "qwen3-tts", "speech-synthesis", "cli"],
+  "mcpName": "io.github.tarunyadav1/murmur-cli",
+  "bin": {
+    "murmur": "bin/murmur.js",
+    "murmur-cli": "bin/murmur.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "text-to-speech",
+    "tts",
+    "voice-cloning",
+    "offline",
+    "local",
+    "mac",
+    "macos",
+    "mcp",
+    "kokoro",
+    "qwen3-tts",
+    "speech-synthesis",
+    "cli"
+  ],
   "homepage": "https://www.murmurtts.com/docs/automation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarunyadav1/murmur-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tarunyadav1/murmur-cli/issues"
+  },
   "author": "Murmur <hello@murmurtts.com>",
   "license": "MIT"
 }
